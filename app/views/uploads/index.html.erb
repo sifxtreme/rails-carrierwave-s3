@@ -1,0 +1,9 @@
+<% @uploads.each do |upload| %>
+  <% link_to 'Show', upload do %>
+  <img src="/dd">
+  <% end %>
+<% end %>
+
+<br>
+
+<%= link_to 'New upload', new_upload_path %>

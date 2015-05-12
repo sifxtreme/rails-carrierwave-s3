@@ -42,3 +42,10 @@ gem 'carrierwave', '0.10.0'
 gem "mini_magick"
 gem "fog"
 
+
+group :development do
+  gem 'pry'
+  gem 'pry-nav'
+  gem "better_errors"
+  gem "binding_of_caller"
+end
