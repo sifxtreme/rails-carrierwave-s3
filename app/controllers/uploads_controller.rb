@@ -23,8 +23,6 @@ class UploadsController < ApplicationController
   def create
     @upload = Upload.new(post_upload_params)
 
-    binding.pry
-
     if @upload.save
       redirect_to @upload, notice: 'Upload was successfully created.'
     else

@@ -1,6 +1,6 @@
 <% @uploads.each do |upload| %>
-  <% link_to 'Show', upload do %>
-  <img src="/dd">
+  <%= link_to upload do %>
+  <img src="<%= upload.name.square %>">
   <% end %>
 <% end %>
 
